@@ -1,0 +1,41 @@
+name: "💡 Feature Request"
+description: Suggest a new feature or enhancement
+title: "[REQUEST]: "
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Provide a brief explanation of the feature you're proposing.
+      placeholder: "e.g., A new button that allows users to..."
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: "Example of Use"
+      description: Describe a scenario where this feature would be used. How would it work and what would it accomplish?
+      placeholder: "e.g., When a user visits the dashboard, they can click on the new button to..."
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation"
+      description: Why is this feature important? How will it benefit users or the project?
+      placeholder: "e.g., This feature will improve efficiency by..."
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: Add any other context, links, or screenshots about the feature request here.
+      placeholder: "e.g., Inspired by a similar feature in [another tool]. See attached screenshot."
+    validations:
+      required: false
