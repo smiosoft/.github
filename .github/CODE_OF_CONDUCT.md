@@ -23,7 +23,7 @@ This Code of Conduct applies within all Smiosoft project spaces, and also when a
 
 ### Reporting Concerns
 
-If you encounter or witness behavior that goes against our Code of Conduct, please report it to us at [nick.smirnoff@smiosoft.com](mailto:nick.smirnoff@smiosoft.com). All reports are confidential and will be reviewed promptly.
+If you encounter or witness behavior that goes against our Code of Conduct, please report it to us at [opensource@smiosoft.com](mailto:opensource@smiosoft.com) / [nick.smirnoff@smiosoft.com](mailto:nick.smirnoff@smiosoft.com). All reports are confidential and will be reviewed promptly.
 
 Please provide:
 
