@@ -1,2 +1,5 @@
 # .github
-organization-wide defaults for all smiosoft/* repositories
+
+_Defaults for all `smiosoft/*` repositories._
+
+![.github](docs/.assets/project-title.png)

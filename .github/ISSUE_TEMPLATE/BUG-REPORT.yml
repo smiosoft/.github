@@ -1,0 +1,71 @@
+name: "🐛 Bug Report"
+description: Create a new ticket for a bug.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Describe the bug or issue in detail.
+      placeholder: "e.g., When I attempt to save a new record, the app crashes..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Reproduction Steps"
+      description: Provide a step-by-step guide on how to reproduce the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. Observe the error
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem. You can use Markdown to insert images.
+      placeholder: "e.g., ![Description of image](link-to-image)"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Paste any relevant log output here. It will be formatted as code.
+      placeholder: "e.g., ERROR at timestamp: Details of the error..."
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Affected Browsers"
+      description: Which browsers have you noticed this issue in?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Operating System"
+      description: On which operating systems did you encounter this bug?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+    validations:
+      required: false
