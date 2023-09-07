@@ -1,7 +1,7 @@
 name: "💡 Feature Request"
 description: Suggest a new feature or enhancement
 title: "[REQUEST]: "
-labels: ["request"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
@@ -35,7 +35,7 @@ body:
     id: additional_context
     attributes:
       label: "Additional Context"
-      description: Add any other context, links, or screenshots about the feature request here.
+      description: Add any other context, considerations, links, or screenshots about the feature request here.
       placeholder: "e.g., Inspired by a similar feature in [another tool]. See attached screenshot."
     validations:
       required: false
