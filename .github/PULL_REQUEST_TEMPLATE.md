@@ -1,7 +1,7 @@
 ## Changes
 
-<!--- Provide a general summary of your changes -->
+- <!-- list changes -->
 
 ## Demo
 
-<!--- If applicable, provide screenshots or a short gif as a demonstration -->
+<!-- If appropriate attach screenshots, GIFs, or any visual representation of the changes -->
