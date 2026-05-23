@@ -1,7 +1,11 @@
-## Changes
+## Summary
 
-- <!-- list changes -->
+<!-- Describe what changed and why. -->
 
-## Demo
+## Testing
 
-<!-- If appropriate attach screenshots, GIFs, or any visual representation of the changes -->
+<!-- Describe how this was tested. -->
+
+## Notes
+
+<!-- Mention anything reviewers should pay attention to. -->
