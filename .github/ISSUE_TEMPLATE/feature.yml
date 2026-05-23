@@ -1,0 +1,59 @@
+name: Feature
+description: Define a new or improved product/platform capability.
+title: "[feature] "
+labels: ["type:feature", "needs:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for user-facing or platform-facing capability work.
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What should be possible when this is done?
+      placeholder: Describe the capability or behaviour this should enable.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this valuable now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included?
+      placeholder: |
+        - 
+        - 
+    validations:
+      required: false
+
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What should not be included?
+      placeholder: |
+        - 
+        - 
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be true for this to be considered done?
+      placeholder: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
