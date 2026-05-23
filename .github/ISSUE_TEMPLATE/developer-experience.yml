@@ -1,0 +1,43 @@
+name: Developer Experience
+description: Improve local development, tooling, testing, observability, CI/CD, docs, or delivery flow.
+title: "[dx] "
+labels: ["type:dx", "needs:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for work that improves the engineering experience and makes delivery safer, faster, or clearer.
+
+  - type: textarea
+    id: friction
+    attributes:
+      label: Friction
+      description: What is currently painful, slow, unclear, fragile, or repetitive?
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Proposed improvement
+      description: What would make this better?
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefit
+      description: How does this improve developer experience, quality, speed, safety, or maintainability?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: false
