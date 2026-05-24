@@ -1,7 +1,8 @@
 name: Feature
 description: Define a new or improved product/platform capability.
 title: "[feature] "
-labels: ["type:feature", "needs:triage"]
+type: Feature
+labels: ["needs:triage"]
 body:
   - type: markdown
     attributes:
