@@ -1,7 +1,13 @@
 name: Bug
 description: Something is broken or behaving incorrectly.
 type: Bug
+labels: ["needs:triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Fill in what you can.
+        A partial report is far more useful than none.
   - type: textarea
     id: actual
     attributes:
@@ -18,6 +24,20 @@ body:
     id: reproduction
     attributes:
       label: Reproduction
-      description: Steps, logs, or conditions that trigger it.
+      description: Steps, a link, a snippet, or a recording. Anything that lets us see it too.
+    validations:
+      required: false
+  - type: input
+    id: where
+    attributes:
+      label: Where you saw it
+      description: A page, a version, or a commit, whichever fits.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, browser, runtime, or anything else that might matter.
     validations:
       required: false
