@@ -1,0 +1,11 @@
+name: Idea
+description: Something that might be worth doing.
+type: Idea
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What is it, and why might it be worth doing? A sentence is enough.
+    validations:
+      required: true

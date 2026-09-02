@@ -1,63 +1,23 @@
 name: Bug
-description: Report broken, incorrect, or unexpected behaviour.
-title: "[bug] "
+description: Something is broken or behaving incorrectly.
 type: Bug
-labels: ["needs:triage"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this for broken or unexpected behaviour. Keep the report factual and reproducible.
-
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: What is broken?
-      placeholder: A concise description of the problem.
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-      description: What should happen instead?
-    validations:
-      required: true
-
   - type: textarea
     id: actual
     attributes:
-      label: Actual behaviour
-      description: What actually happens?
+      label: What happens
     validations:
       required: true
-
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+    validations:
+      required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
-      description: Provide clear reproduction steps where possible.
-      placeholder: |
-        1.
-        2.
-        3.
-    validations:
-      required: false
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impact
-      description: Who or what is affected?
-    validations:
-      required: false
-
-  - type: textarea
-    id: evidence
-    attributes:
-      label: Evidence
-      description: Logs, screenshots, traces, request IDs, event IDs, or links.
+      label: Reproduction
+      description: Steps, logs, or conditions that trigger it.
     validations:
       required: false
