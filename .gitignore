@@ -17,8 +17,9 @@
 !LICENSE
 !*.code-workspace
 
-## Samples and templates
+## Stand-ins
 !*.example
+!*.placeholder
 !*.sample
 !*.template
 
