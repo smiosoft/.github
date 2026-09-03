@@ -1,63 +1,43 @@
 name: Bug
-description: Report broken, incorrect, or unexpected behaviour.
-title: "[bug] "
+description: Something is broken or behaving incorrectly.
 type: Bug
 labels: ["needs:triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this for broken or unexpected behaviour. Keep the report factual and reproducible.
-
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: What is broken?
-      placeholder: A concise description of the problem.
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-      description: What should happen instead?
-    validations:
-      required: true
-
+        Thanks for taking the time to report this. Fill in what you can.
+        A partial report is far more useful than none.
   - type: textarea
     id: actual
     attributes:
-      label: Actual behaviour
-      description: What actually happens?
+      label: What happens
     validations:
       required: true
-
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+    validations:
+      required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
-      description: Provide clear reproduction steps where possible.
-      placeholder: |
-        1.
-        2.
-        3.
+      label: Reproduction
+      description: Steps, a link, a snippet, or a recording. Anything that lets us see it too.
     validations:
       required: false
-
-  - type: textarea
-    id: impact
+  - type: input
+    id: where
     attributes:
-      label: Impact
-      description: Who or what is affected?
+      label: Where you saw it
+      description: A page, a version, or a commit, whichever fits.
     validations:
       required: false
-
   - type: textarea
-    id: evidence
+    id: environment
     attributes:
-      label: Evidence
-      description: Logs, screenshots, traces, request IDs, event IDs, or links.
+      label: Environment
+      description: Operating system, browser, runtime, or anything else that might matter.
     validations:
       required: false

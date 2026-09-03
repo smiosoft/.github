@@ -1,0 +1,24 @@
+name: Idea
+description: Something that might be worth doing.
+type: Idea
+labels: ["needs:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome at any stage of being thought through. A sentence is enough
+        to start a conversation.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What is it, and why might it be worth doing?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is awkward today
+      description: What does this make easier, or what does it work around?
+    validations:
+      required: false

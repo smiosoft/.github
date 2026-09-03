@@ -1,11 +1,15 @@
 ## Summary
 
-<!-- Describe what changed and why. -->
+<!-- What changed, and why. -->
 
-## Testing
+## Linked issue
 
-<!-- Describe how this was tested. -->
+Closes #<!-- Link the issue this PR closes -->
+
+## Demo
+
+<!-- Optional: a screenshot, a recording, or a before and after, if this changes something a person sees. -->
 
 ## Notes
 
-<!-- Mention anything reviewers should pay attention to. -->
+<!-- Optional: validation, contracts, migrations, breaking changes, follow-up work. -->
